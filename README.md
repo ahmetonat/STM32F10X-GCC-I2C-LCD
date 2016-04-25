@@ -1,7 +1,9 @@
 # STM32F10X-GCC-I2C-LCD
 STM32F103 driving an LCD with I2C backpack (Funduino). Uses Gnu ARM Embedded toolchain and no GUI for development
 
-This programject demonstrates the use of GCC ARM Embedded toolchain without a GUI. This example is about driving a STM32F103RB to a 2x16 Hitachi H44780 LCD, connected over a "LCD backpack"; a I2C to parallel driver. I2C bus is used for communication with the LCD.
+This project demonstrates the use of GCC ARM Embedded toolchain without a GUI. This example is about driving a STM32F103RB to a 2x16 Hitachi H44780 LCD, connected over a "LCD backpack"; a I2C to parallel driver. I2C bus is used for communication with the LCD.
+
+See the blog post at: http://aviatorahmet.blogspot.com/2016/04/arm-stm32f10x-gcc-display-variables-on.html
 
 The processor is STM32F103RB, I2C module initialization and use is demonstrated. STM32F10x_StdPeriph_Lib_V3.5.0 is used for
 standard peripheral drivers etc.
